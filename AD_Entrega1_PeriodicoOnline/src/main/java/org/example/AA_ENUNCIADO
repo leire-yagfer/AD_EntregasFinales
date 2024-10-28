@@ -1,0 +1,11 @@
+
+Un periódico online te ha contratado para que escribas una aplicación para llevar un registro de sus clientes: usuarios y anunciantes.
+a)	Crea la clase Cliente. De esta clase no se van a poder instanciar objetos solo servirá de patrón para las otras clases de las que si se podrán instanciar objeto. La información que nos interesa de cada cliente es su identificador (se utiliza como identificador su correo electrónico), su contraseña y el importe de los descuentos que tenga aplicados (ojo: importe es una cantidad decimal, 3.25 euros por ejemplo, no un porcentaje). Añade un constructor vacío y otro que reciba como parámetros el identificador, contraseña y descuento, y los métodos get y set para cada uno de los atributos de la clase.
+b)	Crea la clase Usuario. De esta clase nos interesa el atributo Premium, que toma el valor verdadero cuando el usuario tiene contratada una tarifa Premium que le permite utilizar algunos servicios especiales como son el acceso a videos y podcasts. Añade un constructor vacío y otro que reciba como parámetros el identificador, contraseña, descuentos y Premium y los métodos get y set para cada uno de los atributos de la clase.
+c)	Crea la clase Anunciante. De esta clase nos interesa el número de anuncios que tiene contratados. Añade un constructor vacío y otro que como parámetros el identificador, contraseña, descuentos y número de anuncios y los métodos get y set para cada uno de los atributos de la clase.
+
+Utilización de estructuras dinámicas
+a)	Escribe el código para añadir un cliente a una lista (ArrayList) (botón Añadir).
+b)	Escribe el código para limpiar las cajas de texto (botón Limpiar) y para cerrar la aplicación (botón Salir). Solo con la opción de Java FX.
+c)	Escribe el código para buscar a un cliente por su identificador (botón Buscar) y mostrarlo por pantalla, en caso de que no exista me mostrara un mensaje indicativo.
+d)	Calcula el total de ingresos (botón Ingresos). La tarifa para un cliente Premium es de 35,5 euros y 20,5 para el resto. Cantidad a la que hay que restarle el descuento correspondiente.
